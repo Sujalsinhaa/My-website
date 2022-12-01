@@ -1,0 +1,165 @@
+*{
+  margin:0%;
+  padding:0%;
+  
+}
+
+/*Navbar items*/
+.nav_bar{
+  margin:auto;
+  text-align: center;
+  justify-content:center;
+}
+.download-btn{
+  font-weight :500;
+  padding: 10px;
+  margin:20px;
+  margin-left:40px;
+ /* box-shadow: rgba(0, 0, 0, 0.35) 8px 15px 15px;*/
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+  padding: 12px;
+  border-radius: 30px;
+  color: whitesmoke;
+  margin-top: 0px;
+  color:black;
+  background-color: white;
+  border:none;
+  text-decoration: none;
+}
+
+.background1 a:hover,.background1 a:focus{
+  color: white;
+  background-color: black;
+  transition : 1.2s ease-out;
+}
+
+.identity{
+  margin: auto;
+  padding-left:20px;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+.logo{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*first container */
+.container11{
+  margin: 30px 5px;
+}
+.background1{
+  text-align :center;
+  margin-top:40px;
+  background-image: linear-gradient( #cc95c0,#dbd4b4,#7aa1d2);
+border-radius:10px;
+padding-bottom:100px;
+padding-top: 80px;
+}
+.background1 h1{
+  margin:auto;;
+  margin-left: 20px;
+  padding: 20px;
+  color:white;
+}
+
+
+
+.background1 img{
+  
+  margin:40px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.icons1{
+  margin-top:20px;
+}
+.icons{
+  padding:10px;
+  text-decoration :none;
+  font-size: 35px;
+  color:black;
+  margin-top:30px;
+}
+/* container 2*/
+.container2{
+  text-align:center;
+  justify-content :center;
+  margin:auto;
+  padding:40px;
+}
+.container2 h2{
+  font-size: 35px;
+  font-weight: bold;
+  padding:20px;
+}
+h4{
+  font-size: 30px;
+padding: 20px;
+}
+p{
+  padding :10px;
+}
+.technologies button{
+  border-radius:50px;
+  padding:25px;
+}
+/* container 3*/
+.container3{
+  margin:10px;
+}
+h3{
+  font-size: 40px;
+  padding:20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card h5{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left:10px;
+}
+.card{
+  border-radius: 20px;
+  box-shadow: 2px,8px 12px grey;
+  text-align: center;
+  border: none;
+}
+
+/* footer*/
+
+#contact{
+  background-color: black;
+  text-align: center;
+  color:white;
+  padding:30px;
+}
+
+.footer-icons{
+  color:white;
+  font-size:35px;
+  padding :10px;
+}
+h6{
+  font-size:20px;
+}
+.container5{
+  padding:50px;
+  /*background-image:linear-gradient(#16bffd,#cb3066);*/
+  background-image:linear-gradient( #F6D285,#BBF0F3);
+}
+.item{
+  padding:0px;
+}
+ @media only screen and(min-width:768px){
+   .container10{
+     width:100%;
+     text-align:center;
+   }
+   .card h5{
+     font-size: 60px;
+   }
+
+ }
